@@ -3,70 +3,168 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Visruti Enterprise | Electrical Panels, Earthing & Street Light Poles</title>
-<meta name="description" content="Visruti Enterprise, V.V. Nagar GIDC, Anand — Electrical Control Panels, GI/Chemical Earthing and GI Street Light Poles.">
+<title>VISHRUTI ENTERPRISE | Electrical Solutions in Anand</title>
+<meta name="description" content="VISHRUTI ENTERPRISE, Anand — Electrical Control Panels, GI/Chemical Earthing, GI Street Light Poles, fabrication and installation support.">
 <style>
-:root{--ink:#102033;--accent:#f39a18;--bg:#f5f7fa;--white:#fff;--muted:#64748b}
-*{box-sizing:border-box} body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--ink);background:var(--bg);line-height:1.6}
-header{background:#0b1726;color:white;position:sticky;top:0;z-index:5}
-.nav{max-width:1100px;margin:auto;padding:14px 20px;display:flex;justify-content:space-between;align-items:center}
-.logo{font-size:22px;font-weight:800;letter-spacing:.5px}.logo span{color:var(--accent)}
-nav a{color:white;text-decoration:none;margin-left:18px;font-size:14px}
-.hero{background:linear-gradient(120deg,#0b1726,#173653);color:white;padding:76px 20px}
-.hero-inner{max-width:1100px;margin:auto}.badge{display:inline-block;background:#ffffff18;border:1px solid #ffffff33;padding:7px 12px;border-radius:20px;font-size:13px}
-h1{font-size:clamp(34px,6vw,60px);line-height:1.08;margin:18px 0}.hero p{max-width:680px;font-size:18px;color:#d9e4ef}
-.btn{display:inline-block;padding:13px 20px;border-radius:8px;text-decoration:none;font-weight:700;margin:8px 8px 0 0}.primary{background:var(--accent);color:#111}.secondary{border:1px solid #ffffff66;color:white}
-section{max-width:1100px;margin:auto;padding:60px 20px} .title{text-align:center;margin-bottom:35px}.title h2{font-size:32px;margin:0}.title p{color:var(--muted)}
-.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
-.card{background:white;border-radius:14px;padding:28px;box-shadow:0 5px 25px #10203310;border:1px solid #e7ebf0}
-.icon{font-size:38px}.card h3{margin:12px 0 8px}.card p{color:var(--muted)}
-.list{padding-left:20px;color:#475569}.list li{margin:7px 0}
-.about{background:white;border-radius:16px;padding:34px;box-shadow:0 5px 25px #10203310}
-.contact{background:#0b1726;color:white;border-radius:16px}.contact p{color:#d9e4ef}.contact a{color:white}
-footer{background:#07101c;color:#cbd5e1;text-align:center;padding:25px 20px;font-size:14px}
-.float{position:fixed;right:18px;bottom:18px;background:#19a85b;color:white;padding:14px 18px;border-radius:50px;text-decoration:none;font-weight:800;box-shadow:0 8px 25px #0003;z-index:10}
-@media(max-width:760px){nav{display:none}.grid{grid-template-columns:1fr}.hero{padding:58px 20px}section{padding:45px 18px}}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:Arial,Helvetica,sans-serif;color:#17233c;background:#f5f7fa;line-height:1.6}
+header{background:#06152e;color:#fff;padding:14px 6%;display:flex;justify-content:space-between;align-items:center;position:sticky;top:0;z-index:100;border-bottom:1px solid #18355b}
+.logo{font-size:24px;font-weight:900;letter-spacing:.8px}.logo span{color:#f47721}
+nav a{color:#fff;text-decoration:none;margin-left:20px;font-weight:700;font-size:14px}
+.hero{color:#fff;background:linear-gradient(120deg,rgba(4,18,40,.96),rgba(8,47,83,.9)),url('images/visruti_cover.png') center/cover;padding:85px 6% 90px}
+.hero-inner{max-width:1100px;margin:auto}
+.badge{display:inline-block;border:1px solid #365477;border-radius:30px;padding:8px 16px;margin-bottom:22px;color:#e8f0fb}
+.hero h1{font-size:48px;line-height:1.12;max-width:800px;margin-bottom:18px}.hero h1 span{color:#f47721}
+.hero p{font-size:19px;max-width:780px;margin-bottom:12px;color:#e6edf7}
+.buttons{margin-top:25px}.btn{display:inline-block;padding:14px 24px;border-radius:9px;text-decoration:none;font-weight:800;margin:5px}
+.call{background:#f47721;color:#fff}.wa{background:#18b957;color:#fff}.outline{border:1px solid #7188a6;color:#fff}
+section{padding:65px 6%;max-width:1200px;margin:auto}
+h2{text-align:center;font-size:34px;margin-bottom:12px;color:#071b38}
+.sub{text-align:center;color:#5d6a7d;max-width:760px;margin:0 auto 35px}
+.product-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.card{background:#fff;border-radius:15px;overflow:hidden;box-shadow:0 8px 28px #00000012;border:1px solid #e6ebf2}
+.card img{width:100%;height:190px;object-fit:cover;display:block}
+.card-body{padding:22px}.card h3{color:#071b38;margin-bottom:7px}.tag{display:inline-block;color:#f47721;font-size:12px;font-weight:800;text-transform:uppercase;margin-bottom:7px}
+.about{background:#fff;max-width:none}.about-inner{max-width:1050px;margin:auto}
+.about-box{display:grid;grid-template-columns:1.1fr .9fr;gap:35px;align-items:center}
+.about-list{padding-left:20px}.about-list li{margin:9px 0}
+.why{background:#eef3f8;max-width:none}.why-inner{max-width:1100px;margin:auto}
+.feature-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.feature{background:#fff;padding:22px;border-radius:12px}.feature b{display:block;color:#071b38;margin-bottom:5px}
+.quote{background:#071b38;color:#fff;max-width:none}.quote h2{color:#fff}.quote .sub{color:#cdd9e8}
+.form{max-width:760px;margin:auto;background:#fff;padding:26px;border-radius:14px}
+.form-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+input,select,textarea{width:100%;padding:13px;border:1px solid #ccd5e1;border-radius:8px;font:inherit}
+textarea{min-height:110px;resize:vertical}.full{grid-column:1/-1}
+.submit{border:0;background:#18b957;color:#fff;padding:14px 22px;border-radius:8px;font-weight:800;font-size:16px;cursor:pointer;width:100%}
+.contact{background:#06152e;color:#fff;max-width:none}.contact h2{color:#fff}
+.contactbox{max-width:900px;margin:auto;text-align:center;font-size:18px}.contactbox a{color:#fff}
+.map{margin-top:28px;border-radius:14px;overflow:hidden;border:1px solid #284466}.map iframe{width:100%;height:300px;border:0}
+footer{background:#041020;color:#cbd4df;text-align:center;padding:20px}
+.float{position:fixed;right:18px;bottom:18px;background:#18b957;color:#fff;border-radius:50%;width:60px;height:60px;display:flex;align-items:center;justify-content:center;text-decoration:none;font-size:28px;box-shadow:0 5px 18px #0006;z-index:120}
+@media(max-width:800px){
+header{padding:13px 4%;flex-direction:column;gap:9px}.logo{font-size:21px}nav a{margin:0 6px;font-size:13px}
+.hero{padding:62px 5% 70px}.hero h1{font-size:36px}.hero p{font-size:17px}
+section{padding:50px 5%}.product-grid,.feature-grid,.about-box{grid-template-columns:1fr}.form-grid{grid-template-columns:1fr}.full{grid-column:auto}
+.card img{height:210px}
+}
 </style>
 </head>
 <body>
-<header><div class="nav">
-<div class="logo">VISRUTI <span>ENTERPRISE</span></div>
-<nav><a href="#home">Home</a><a href="#products">Products</a><a href="#about">About</a><a href="#contact">Contact</a></nav>
-</div></header>
+<header>
+<div class="logo">VISHRUTI <span>ENTERPRISE</span></div>
+<nav><a href="#home">Home</a><a href="#products">Products</a><a href="#about">About</a><a href="#quote">Quote</a><a href="#contact">Contact</a></nav>
+</header>
 
-<main>
-<section class="hero" id="home"><div class="hero-inner">
+<section class="hero" id="home">
+<div class="hero-inner">
 <div class="badge">V.V. Nagar GIDC • Anand, Gujarat</div>
-<h1>Electrical Solutions for Industrial & Commercial Projects</h1>
+<h1>Electrical Solutions for <span>Industrial & Commercial Projects</span></h1>
 <p>Electrical Control Panels, GI/Chemical Earthing and GI Street Light Poles — manufactured and supplied with a focus on quality, reliable workmanship and timely delivery.</p>
-<a class="btn primary" href="tel:+917046024260">📞 Call Now</a>
-<a class="btn secondary" href="https://wa.me/917046024260?text=Hello%20Visruti%20Enterprise%2C%20I%20need%20a%20quotation." target="_blank">💬 WhatsApp</a>
-</div></section>
+<div class="buttons">
+<a class="btn call" href="tel:+917046024260">📞 Call Now</a>
+<a class="btn wa" href="https://wa.me/917046024260?text=Hello%20Visruti%20Enterprise%2C%20I%20need%20an%20electrical%20solution.">💬 WhatsApp</a>
+<a class="btn outline" href="#products">View Products</a>
+</div>
+</div>
+</section>
 
 <section id="products">
-<div class="title"><h2>Our Products & Services</h2><p>Three core business categories for your project requirements.</p></div>
-<div class="grid">
-<div class="card"><div class="icon">⚡</div><h3>Electrical Control Panels</h3><p>Custom electrical panels for industrial, commercial and infrastructure applications.</p><ul class="list"><li>Meter Panels</li><li>Outdoor / Feeder Panels</li><li>AMF / ATS Panels</li><li>APFC / MCC / Control Panels</li></ul><a class="btn primary" href="#contact">Get Panel Quote</a></div>
-<div class="card"><div class="icon">🌍</div><h3>GI / Chemical Earthing</h3><p>Earthing products and solutions for safe and reliable electrical grounding.</p><ul class="list"><li>GI Earthing Electrode</li><li>Chemical Earthing</li><li>GI Strip & Accessories</li><li>Earthing Chamber & Installation</li></ul><a class="btn primary" href="#contact">Get Earthing Quote</a></div>
-<div class="card"><div class="icon">💡</div><h3>GI Street Light Poles</h3><p>Street light pole supply and fabrication for lighting and infrastructure projects.</p><ul class="list"><li>6 m / 7.5 m / 9 m</li><li>Single & Double Arm</li><li>Hot-Dip Galvanized Finish</li><li>Custom requirements</li></ul><a class="btn primary" href="#contact">Get Pole Quote</a></div>
-</div></section>
+<h2>Our Products & Services</h2>
+<p class="sub">Practical electrical manufacturing, fabrication and site-support solutions for industries, commercial projects and contractors.</p>
+<div class="product-grid">
+<article class="card"><img src="images/visruti_panel.png" alt="Electrical Control Panel"><div class="card-body"><div class="tag">Panel Manufacturing</div><h3>Electrical Control Panels</h3><p>LT, AMF/ATS, distribution and MCC panel fabrication as per project requirement.</p></div></article>
+<article class="card"><img src="images/visruti_earthing.png" alt="GI Chemical Earthing"><div class="card-body"><div class="tag">Earthing Solutions</div><h3>GI / Chemical Earthing</h3><p>Earthing electrode and complete earthing solutions for industrial and commercial applications.</p></div></article>
+<article class="card"><img src="images/visruti_pole.png" alt="GI Street Light Pole"><div class="card-body"><div class="tag">Pole Fabrication</div><h3>GI Street Light Poles</h3><p>GI/MS street light pole fabrication for roads, societies, industries and projects.</p></div></article>
+<article class="card"><div class="card-body"><div class="tag">Fabrication</div><h3>Electrical Fabrication</h3><p>MS, SS and GI fabrication work with project-oriented custom solutions.</p></div></article>
+<article class="card"><div class="card-body"><div class="tag">Site Work</div><h3>Installation & Commissioning</h3><p>Panel installation, wiring support, commissioning and site assistance.</p></div></article>
+<article class="card"><div class="card-body"><div class="tag">Support</div><h3>Maintenance & Service</h3><p>Electrical maintenance assistance and practical after-sales support.</p></div></article>
+</div>
+</section>
 
-<section id="about"><div class="about">
-<div class="title"><h2>About Visruti Enterprise</h2></div>
-<p><strong>VISRUTI ENTERPRISE</strong> is based in V.V. Nagar GIDC, Anand, Gujarat. We focus on electrical panel manufacturing, GI/chemical earthing solutions and GI street light pole supply.</p>
-<p>Our goal is simple: provide practical electrical products with dependable workmanship, clear quotations and timely delivery.</p>
-</div></section>
+<section class="about" id="about">
+<div class="about-inner">
+<h2>About VISHRUTI ENTERPRISE</h2>
+<p class="sub">A local electrical manufacturing and fabrication business serving Anand and nearby Gujarat markets.</p>
+<div class="about-box">
+<div>
+<p>We focus on dependable workmanship, practical designs and cost-effective solutions for electrical projects.</p>
+<ul class="about-list">
+<li>Electrical control panel fabrication</li>
+<li>GI / Chemical earthing solutions</li>
+<li>GI street light pole fabrication</li>
+<li>Custom fabrication as per requirement</li>
+<li>Installation and technical support</li>
+</ul>
+</div>
+<img src="images/visruti_cover.png" alt="Visruti Enterprise electrical work" style="width:100%;border-radius:14px">
+</div>
+</div>
+</section>
 
-<section id="contact"><div class="contact" style="padding:36px">
-<div class="title"><h2>Get a Quote</h2><p>Send your requirement and we will get back to you.</p></div>
-<p><strong>📞 Mobile / WhatsApp:</strong> <a href="tel:+917046024260">+91 70460 24260</a></p>
-<p><strong>📍 Address:</strong> V.V. Nagar GIDC, Anand, Gujarat</p>
-<p><strong>✉️ Email:</strong> <a href="mailto:vishrutienterprise78@gmail.com">vishrutienterprise78@gmail.com</a></p>
-<a class="btn primary" href="https://wa.me/917046024260?text=Hello%20Visruti%20Enterprise%2C%20please%20share%20a%20quotation%20for%20my%20requirement." target="_blank">💬 Send Requirement on WhatsApp</a>
-</div></section>
-</main>
+<section class="why">
+<div class="why-inner">
+<h2>Why Choose Us</h2><p class="sub">Built around practical project requirements.</p>
+<div class="feature-grid">
+<div class="feature"><b>⚙️ Custom Work</b>Design and fabrication according to your project requirement.</div>
+<div class="feature"><b>🏭 Industrial Focus</b>Solutions suitable for industrial and commercial applications.</div>
+<div class="feature"><b>🤝 Direct Support</b>Easy communication by phone and WhatsApp for enquiries and site coordination.</div>
+</div>
+</div>
+</section>
 
-<a class="float" href="https://wa.me/917046024260?text=Hello%20Visruti%20Enterprise%2C%20I%20need%20a%20quotation." target="_blank">WhatsApp</a>
-<footer>© 2026 VISRUTI ENTERPRISE • Electrical Panels • GI Earthing • Street Light Poles</footer>
+<section class="quote" id="quote">
+<h2>Get a Quick Quote</h2>
+<p class="sub">Send your requirement directly on WhatsApp.</p>
+<form class="form" onsubmit="sendQuote(event)">
+<div class="form-grid">
+<input id="name" placeholder="Your Name" required>
+<input id="phone" placeholder="Mobile Number" required>
+<select id="product" required>
+<option value="">Select Requirement</option>
+<option>Electrical Control Panel</option>
+<option>GI / Chemical Earthing</option>
+<option>GI Street Light Pole</option>
+<option>Electrical Fabrication</option>
+<option>Installation / Service</option>
+</select>
+<input id="qty" placeholder="Quantity (optional)">
+<textarea id="message" class="full" placeholder="Tell us your size, rating, quantity or project requirement"></textarea>
+<div class="full"><button class="submit" type="submit">📲 Send Enquiry on WhatsApp</button></div>
+</div>
+</form>
+</section>
+
+<section class="contact" id="contact">
+<h2>Contact VISHRUTI ENTERPRISE</h2>
+<div class="contactbox">
+<p>📍 GIDC, V.V. Nagar Road, Anand - 388121, Gujarat</p>
+<p>📞 <a href="tel:+917046024260">70460 24260</a></p>
+<p>✉️ <a href="mailto:vishrutienterprise78@gmail.com">vishrutienterprise78@gmail.com</a></p>
+<div class="buttons">
+<a class="btn call" href="tel:+917046024260">Call Now</a>
+<a class="btn wa" href="https://wa.me/917046024260?text=Hello%20Visruti%20Enterprise">WhatsApp</a>
+</div>
+<div class="map">
+<iframe src="https://www.google.com/maps?q=V.V.%20Nagar%20GIDC%2C%20Anand%2C%20Gujarat&output=embed" loading="lazy" title="Visruti Enterprise location map"></iframe>
+</div>
+</div>
+</section>
+
+<footer>© 2026 VISHRUTI ENTERPRISE • Anand, Gujarat • All Rights Reserved</footer>
+<a class="float" href="https://wa.me/917046024260?text=Hello%20Visruti%20Enterprise%2C%20I%20need%20a%20quote." aria-label="WhatsApp">💬</a>
+
+<script>
+function sendQuote(e){
+ e.preventDefault();
+ const name=document.getElementById('name').value;
+ const phone=document.getElementById('phone').value;
+ const product=document.getElementById('product').value;
+ const qty=document.getElementById('qty').value;
+ const msg=document.getElementById('message').value;
+ const text=`Hello VISHRUTI ENTERPRISE,%0A%0AName: ${encodeURIComponent(name)}%0AMobile: ${encodeURIComponent(phone)}%0ARequirement: ${encodeURIComponent(product)}%0AQuantity: ${encodeURIComponent(qty)}%0ADetails: ${encodeURIComponent(msg)}`;
+ window.open(`https://wa.me/917046024260?text=${text}`,'_blank');
+}
+</script>
 </body>
 </html>
